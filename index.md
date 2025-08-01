@@ -6,6 +6,7 @@
   <title>AI-Native Computing</title>
   <meta name="description" content="AI-Native Computing - Defining the future of AI-driven software architectures.">
   <meta name="keywords" content="AI-Native Computing, AI, Software Architecture, Standards, Open Source">
+  <link rel="stylesheet" href="{{ 'style.css' | relative_url }}">
 </head>
 <body>
 
