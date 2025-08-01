@@ -1,0 +1,109 @@
+/* === Modern Overrides for Architect Theme === */
+
+/* Global font & smoothing */
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  color: #1f1f1f;
+  background-color: #fdfdfd;
+  margin: 0;
+}
+
+/* Header */
+header {
+  font-size: 1.4rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #0d47a1;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+/* Container */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #0d47a1;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+
+/* Table of Contents */
+.toc {
+  background: #f4f7fb;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+.toc a {
+  display: block;
+  padding: 0.4rem 0;
+  color: #1565c0;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+.toc a:hover {
+  background: #e3f2fd;
+  border-left: 3px solid #1565c0;
+  padding-left: 0.4rem;
+}
+
+/* Links */
+a {
+  color: #1565c0;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul {
+  padding-left: 1.4rem;
+}
+ul li {
+  margin-bottom: 0.4rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  header, footer {
+    padding: 0.8rem 1rem;
+    font-size: 1.2rem;
+  }
+}
