@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,16 +8,7 @@
   <link rel="stylesheet" href="{{ 'style.css' | relative_url }}">
 </head>
 <body>
-
-  <header>
-    AINativeComputing.org
-  </header>
-
   <div class="container">
-
-    <h1>AI-Native Computing: Redefining Software Architecture</h1>
-
-
 
     <h2>Table of Contents</h2>
     <div class="toc">
