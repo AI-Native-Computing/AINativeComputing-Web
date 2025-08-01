@@ -15,6 +15,8 @@
   
   <p>In the process of solving that, I built an approach that allowed AI to be a permanent, aware, and active participant in a system. It didn’t wait to be called; it stayed present. It didn’t need a different communication channel; it shared the same one. It wasn’t an “AI mode” you turned on and off — it was part of the system’s heartbeat. Once I saw this working, it became clear this was more than a personal architecture choice. It was a pattern worth sharing.</p>
   
+  <img src="{{ '/AINC_HLD.png' | relative_url }}" alt="AI-Native Computing High-Level Diagram" style="max-width:100%; height:auto; display:block; margin:2rem auto;">
+
   <p>That’s what became <strong>AI‑Native Computing</strong>. The AI‑Native Computing Standard exists so that anyone who wants to build with AI as a first‑class citizen can start from a proven foundation instead of reinventing the wheel. It captures the core principles that make this work — persistent presence, unified input and output, real‑time responsiveness — in a way that can be applied across many different domains and technologies.</p>
   
   <p>This isn’t a product pitch. It’s not a framework I’m trying to sell. It’s my way of giving back to the community that’s given me so much — an open, evolving standard for embedding intelligence directly into the fabric of computing. If you believe AI should be part of the system itself, not bolted on as an afterthought, I invite you to take what’s here, make it your own, and help refine it for everyone who comes next.</p>
